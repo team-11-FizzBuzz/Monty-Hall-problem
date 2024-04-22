@@ -28,4 +28,5 @@ for j in range(1000):
             else:
                 lose+=1
                 break
+                
 print(win) # 승리 / 1000-win : 패배
