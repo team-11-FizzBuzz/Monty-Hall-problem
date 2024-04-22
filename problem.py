@@ -1,9 +1,12 @@
+import random
 # 승리횟수 정의 win=0
 # 패배횟수 정의 lose=0
-
+win = 0
+lose = 0
 # 보상저장 award = ['자동차','염소','염소']
 # 보상 리스트 섞어줌 random.shuffle(award)
-
+award = ['자동차','염소','염소']
+random.shuffle(award)
 # 리스트 중 몇번을 선택하는지 정하기 first_check = random.randint(0,2) 
 # 염소 위치 리스트에 저장 goat_location = [i for i, value in enumerate(award) if value == '염소'] 
 
